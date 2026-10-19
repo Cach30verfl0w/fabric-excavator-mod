@@ -1,0 +1,10 @@
+/*
+!.gitignore
+!scopes/
+!scopes/**
+!copyright/
+!copyright/**
+!dictionaries/
+!dictionaries/**
+!.name
+!icon.png

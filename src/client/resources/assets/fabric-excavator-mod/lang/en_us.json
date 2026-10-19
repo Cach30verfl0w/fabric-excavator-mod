@@ -1,0 +1,10 @@
+{
+	"key.fabric-excavator-mod.select": "Select excavation region",
+	"key.category.fabric-excavator-mod.key_category": "Fabric Excavator",
+	"message.fabric-excavator-mod.select_second": "First block selected. Hold the selection key and left-click the opposite corner.",
+	"message.fabric-excavator-mod.selection_complete": "Selected %s blocks. Break any selected block to excavate the region.",
+	"message.fabric-excavator-mod.selection_invalid": "The excavation selection was rejected by the server.",
+	"message.fabric-excavator-mod.selection_cleared": "Selection cleared.",
+	"message.fabric-excavator-mod.selection_too_large": "The excavation region may contain at most 4096 blocks.",
+	"message.fabric-excavator-mod.selection_unloaded": "Every chunk in the excavation region must be loaded."
+}

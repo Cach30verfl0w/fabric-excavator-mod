@@ -1,0 +1,10 @@
+{
+	"key.fabric-excavator-mod.select": "Abbauregion auswählen",
+	"key.category.fabric-excavator-mod.key_category": "Fabric Excavator",
+	"message.fabric-excavator-mod.select_second": "Erster Block ausgewählt. Halte die Auswahltaste und klicke die gegenüberliegende Ecke an.",
+	"message.fabric-excavator-mod.selection_complete": "%s Blöcke ausgewählt. Baue einen ausgewählten Block ab, um die Region abzubauen.",
+	"message.fabric-excavator-mod.selection_invalid": "Der Server hat die Abbauregion abgelehnt.",
+	"message.fabric-excavator-mod.selection_cleared": "Selektion aufgehoben.",
+	"message.fabric-excavator-mod.selection_too_large": "Die Abbauregion darf höchstens 4096 Blöcke enthalten.",
+	"message.fabric-excavator-mod.selection_unloaded": "Alle Chunks der Abbauregion müssen geladen sein."
+}

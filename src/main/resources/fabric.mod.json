@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"id": "fabric-excavator-mod",
+	"version": "${version}",
+	"name": "Fabric Excavator Mod",
+	"description": "A Fabric mod that lets you define and excavate 3D block selections with ease",
+	"authors": [
+		{
+			"name": "Cedric Hammes",
+			"contact": {
+				"email": "contact@cach30verfl0w.net"
+			}
+		}
+	],
+	"contact": {
+		"sources": "https://github.com/Cach30verfl0w/fabric-excavator-mod",
+		"issues": "https://github.com/Cach30verfl0w/fabric-excavator-mod/issues",
+		"email": "contact@cach30verfl0w.net"
+	},
+	"license": "MIT",
+	"icon": "assets/fabricexcavator/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"adapter": "kotlin",
+				"value": "net.cacheoverflow.fabricexcavator.FabricExcavatorMod"
+			}
+		],
+		"client": [
+			{
+				"adapter": "kotlin",
+				"value": "net.cacheoverflow.fabricexcavator.client.FabricExcavatorClient"
+			}
+		]
+	},
+	"mixins": [
+		"modid.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.13.2+kotlin.2.1.20"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.cacheoverflow.fabricexcavator.injection.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BlockStateBaseMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

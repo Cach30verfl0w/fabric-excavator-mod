@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Cedric Hammes
+# SPDX-License-Identifier: MIT
+
+.gradle/
+build/
+run/
+local.properties
